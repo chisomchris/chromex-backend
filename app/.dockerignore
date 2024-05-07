@@ -1,0 +1,14 @@
+node_modules
+# src
+src/config/dbconfig.ts
+build
+.env.example
+Dockerfile
+.dockerignore
+.env
+.gitignore
+tsconfig.json
+models
+config/dbconfig.ts
+config/dbconfig.js
+services/

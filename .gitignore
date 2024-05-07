@@ -1,0 +1,7 @@
+# GENERAL
+node_modules
+.env
+
+###### BACKEND #########
+build
+videos

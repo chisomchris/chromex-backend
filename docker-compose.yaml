@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  app:
+    # image: chisomchris/chromex:v1.0.0
+    restart: always
+    build:
+      context: ./app
+      target: development
+    container_name: help_me_out
+    ports:
+      - ${PORT}:${PORT}
+    expose:
+      - ${PORT}
+    environment:
+      PORT: ${PORT}
+    volumes:
+      - ./app:/app
+      - /app/node_modules
